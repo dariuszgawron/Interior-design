@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>Interior Design</title>
 </head>
-<body>
-    <header class="header">
+<body class="page">
+    <header class="page__header header">
         <nav class="header__navbar navbar">
             <ul class="navbar__nav nav">
                 <li class="nav__item nav__item--active">
@@ -31,37 +32,64 @@
             </ul>
         </nav>
         <div class="header__prescreen prescreen">
-            <div class="prescreen__social">
+            <div class="prescreen__top">
+                <div class="prescreen__social">
 
-            </div>
-            <div class="prescreen__language">
-
+                </div>
+                <div class="prescreen__lang lang-switcher">
+                    <div class="lang-switcher__item">
+                        <a href="#" class="lang-switcher__link"></a>
+                    </div>
+                </div>
             </div>
             <div class="prescreen__main">
-                <div class="logo"></div>
-                <div class="title"></div>
-                <div class="subtitle"></div>
-                <div class="button"></div>
+                <div class="prescreen__logo"></div>
+                <div class="prescreen__title"></div>
+                <div class="prescreen__subtitle"></div>
+                <div class="prescreen__button"></div>
             </div>
         </div>
     </header>
 
-    <main class="main">
+    <main class="page__main main">
         <section class="section">
-            <h3 class="section__title"></h3>
-        </section>
-        <section class="section">
-            <h3 class="section__title"></h3>
-            <div class="section__content">
+            <div class="section__container">
+                <h3 class="section__title section__title--normal">Nasza oferta</h3>
+                <div class="section__content">
 
+                </div>
+                <a href="#" class="section__button">Zobacz ofertę</a>
             </div>
         </section>
         <section class="section">
+            <div class="section__container">
+                <h3 class="section__title section__title--normal">Realizacje</h3>
+                <div class="section__content">
+                    
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__container">
+                <h3 class="section__title section__title--normal">Galeria</h3>
+                <div class="section__content">
+                    
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="section__container">
+                <h3 class="section__title section__title--big">Opinie</h3>
 
+                <div class="section__content">
+                    
+                </div>
+                <a href="#" class="section__button">Pokaż wszystkie opinie</a>
+            </div>
         </section>
     </main>
 
-    <footer class="footer">
+    <footer class="page__footer footer">
         <div class="footer__map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d652204.0614174568!2d19.0194915!3d50.3167107!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spl!2spl!4v1630438541835!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
@@ -76,8 +104,8 @@
 
             </div>
         </div>
-        <div class="footer__social">
-            <a href="#" class="social__link--circle">
+        <div class="footer__social social">
+            <a href="#" class="social__link social__link--circle">
                 <i class="social__icon fab fa-facebook-f"></i>
             </a>
             <a href="#" class="social__link social__link--circle">
@@ -86,20 +114,19 @@
             <a href="#" class="social__link social__link--circle">
                 <i class="social__icon social__icon--circle fab fa-instagram"></i>
             </a>
-            <a href="#" class="social__lin social__link--circle">
+            <a href="#" class="social__link social__link--circle">
                 <i class="social__icon fab fa-linkedin-in"></i>
             </a>
             <a href="#" class="social__link social__link--circle">
                 <i class="social__icon fab fa-twitter"></i>
             </a>
-            
         </div>
         <div class="footer__copyright">
             <div class="copyright__creator">
-
+                ©2021 Designed by DG
             </div>
             <div class="copyright__advert">
-
+                Check more projects here
             </div>
         </div>
     </footer>
