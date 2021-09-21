@@ -1,0 +1,130 @@
+/* RESET STYLÓW PRZEGLĄDARKI */
+
+/* STYLE OGÓLNE */
+
+/* CZCIONKI I UŁOŻENIE ELEMENTÓW NA STRONIE */
+
+/* NAGŁÓWEK */
+.header {
+
+}
+
+.navbar {
+
+}
+
+.nav {
+
+}
+
+/* GŁÓWNA ZAWARTOŚĆ WITRYNY */
+.main {
+
+}
+
+.section {
+    display: block;
+    padding: 4em 0;
+}
+
+.section-header {
+
+}
+
+.section-header__title {
+
+}
+
+.section-header__decor {
+
+}
+
+.grid {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.grid__item {
+    display: block;
+    position: relative;
+    width: 100%;
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.grid__item--lg-6 {
+    width: 50%;
+}
+
+.block {
+    display: block;
+}
+
+.social-list {
+
+}
+
+.social-list__item {
+
+}
+
+.social-list__icon {
+
+}
+
+.lang-switcher {
+
+}
+
+.lang-switcher__item {
+
+}
+
+.lang-switcher__link {
+
+}
+
+.page-header {
+
+}
+
+.page-header__image {
+
+}
+
+.page-header__title {
+
+}
+
+.page-header__description {
+
+}
+
+.page-header__link {
+
+}
+
+.feature {
+
+}
+
+.feature__icon {
+
+}
+
+.feature-text {
+
+}
+
+.feature-text__header {
+
+}
+
+.feature-text__content {
+
+}
+
+/* STOPKA */
+
+/* MEDIA QUERIES */
