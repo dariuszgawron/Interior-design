@@ -6,15 +6,46 @@
 
 /* NAGŁÓWEK */
 .header {
-
+    width: 100%;
 }
 
 .navbar {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
 
+.navbar--dark {
+    background-color: rgb(17,17,17);
+    color: rgb(255,255,255);
 }
 
 .nav {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    gap: 20px;
+}
 
+.nav__item {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.nav__item:hover {
+    border: 1px solid rgb(255,255,255);
+    background-color: rgb(255,255,255);
+    color: black;
+}
+
+.nav__item--active {
+    border: 1px solid rgb(255,255,255); 
+}
+
+.nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* GŁÓWNA ZAWARTOŚĆ WITRYNY */
